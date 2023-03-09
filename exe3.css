@@ -1,0 +1,28 @@
+body{
+    background-color: #98d1f7;
+    font: normal 15pt Arial;
+}
+div{
+    margin: 8px 0px;
+}
+#dados{
+    background-color: white;
+    width: 70%;
+    height: 160px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: auto;
+}
+input[type=button]{
+    display: block;
+    margin: 15px 0px;
+    padding: 5px 5px;
+}
+
+header,footer{
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-top: 10px;
+    text-align: center;
+}

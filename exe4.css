@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+    background:url('Tree-icon.png') no-repeat fixed 60% 70%;
+}
+sem-padding{
+    padding: 0!important;
+}
+sem-margin{
+    margin:0 !important;
+}
+a:link,a:visited,a:active{
+    text-decoration: none; 
+    padding: 5px 5px;   
+    border-radius: 4px; 
+    color: #04BFAD;
+}
+h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+a:hover{
+    background-color: #4ED9BF;
+    padding: 5px 5px;
+    color: #0D0D0D;
+}
+#logo{
+    background-color:#4ED9BF ;
+    padding: 1px 1px;
+    text-align: center;
+    color: #0D0D0D;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #4ED9BF;
+    font-weight: 300;
+}
+
+#navbar{
+    background-color: #0d0d0dd7;
+    padding: 1px 1px;
+    float: left;
+    width: 15%;
+    height: 210vh;
+}
+ul.menu li{
+    text-transform: uppercase;
+    margin:10px 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+footer{
+    background-color: #4ED9BF;
+    padding: 1px 1px;
+    clear: both;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24pt;
+}
+/*layouts*/
+.section{
+    text-align: center;
+    width: 80%;
+    float: right;
+    height: 200vh;
+    position: relative;
+    left: -50px;
+}
+.adicional{
+    width: 26.6666%;
+    float: right;
+    margin: 10px 15px 0px 15px;
+    padding: 5px 5px;
+    height: 85vh;
+    background-color: white;
+}
+.content1{
+    border: #0583F2 solid 5px;
+    color: #0583F2;
+}
+.content2{
+    border:#04BFAD solid 5px;
+    color: #04BFAD;
+}
+.content3{
+    border:#A64F03 solid 5px;
+    color: #A64F03;
+}
+.matri{
+    background-color: #04bfac80;
+    width: 60%;
+    height: 80vh;
+    float: left;
+    padding: 0px 7px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.resultado{
+    width: 40%;
+    height: 30vh;
+    background-color: aliceblue;
+    position: relative;
+    left: -70px;
+    top: -350px;
+    float: right;
+    padding: 5px 10px;
+    font-size: 20pt;
+}
+input,label{
+    display: block;
+    padding: 7px 7px;
+    border-radius: 7px;
+    margin: 1px 2px;
+}
+input[type=radio]{
+    display: inline-block;
+}
+
+#btn{
+    background-color: #0583F2;
+    margin:20px 0px 0px 10px ;
+    width: 20%;
+}

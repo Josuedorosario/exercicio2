@@ -1,0 +1,12 @@
+input[type=number]{
+    display: block;
+    width: 60px;
+    margin-bottom: 10px;
+}
+div{
+    background-color: honeydew;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+    line-height: 150px;
+}
